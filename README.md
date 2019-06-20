@@ -11,7 +11,7 @@ Add **matlab** folder to your path in MATLAB in order to use its functions.
 ## Usage
 A pre-compiled binary can be used in windows to start up quickly.
 
-Double click ***Emotiv.exe* in *bin/Windows/* and then Open MATLAB.
+Double click **Emotiv.exe** in *bin/Windows/* and then Open MATLAB.
 
 Use the following functions to establish a TCP/IP connection and read the raw signals:
 
