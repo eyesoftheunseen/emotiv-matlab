@@ -1,5 +1,5 @@
 # emotiv-matlab
-**Acquiring Raw EEG Signals from Emotiv EPOC+ in MATLAB**
+**Acquiring raw EEG signals from Emotiv EPOC+ in MATLAB**
 
 The python script routes the raw EEG signals of all channels acquired from Emotiv EPOC+ headset to MATLAB using a TCP/IP connection.
 
@@ -9,12 +9,11 @@ The script is based on [Emokit](https://github.com/openyou/emokit) by The OpenYo
 Add **matlab** folder to your path in MATLAB in order to use its functions.
 
 ## Usage
-Run the python script using the following:
-```bash
-python emotiv_driver.py
-```
+A pre-compiled binary can be used in windows to start up quickly.
 
-Open MATLAB and use the following functions to establish a TCP/IP connection and read the raw signals:
+Double click ***Emotiv.exe* in *bin/Windows/* and then Open MATLAB.
+
+Use the following functions to establish a TCP/IP connection and read the raw signals:
 
 ```matlab
 emotiv_connect
